@@ -162,5 +162,265 @@ font-style: italic ;
 font-weight: lighter;
 color:#154d34 ;
 }
-
-
+@media (max-width: 1024px) {
+  .consultas {
+    width: 80%;
+    margin-left: 0px;
+    display: block;
+    float: none;
+    border-right: 0px solid #ccc;
+    height: auto;
+    text-align: center;
+    padding-left: 50px;
+  }
+  
+  .consultas h4{
+    font-weight: bold;
+    color:black;
+    font-size: 24px;
+  }
+  .consultas p{
+    font-style: italic;
+    font-size: 24px;
+    color: black;
+  }
+  
+  .consultas p span{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  .columna {
+    background-image: none;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 0 0.5em;
+    color: #154d34;
+    opacity: 100%;
+  }
+  
+  .formulario label {
+    padding: 30px 30px 10px 10px;
+    display:inline-block;
+    font-style: italic;
+    font-size: 24px;
+  }
+  
+  .formulario input, 
+  .formulario textarea:first-child {
+    margin-top: 10px;
+  
+  }
+  .formulario input, 
+  .formulario textarea{
+  float: right;
+  margin-right: 0px;
+  width: 85%;
+  background-color:white;
+  opacity: 60%;
+  border-radius: 10px;
+  font-size: 24px;
+  padding:  0.5em 0.6em;
+  box-shadow: 0 0 10px rgb(94, 85, 85);
+  font-style: italic;
+  }
+  
+  .formulario textarea {
+    height: 10em;
+    resize: none;
+  }
+  
+  .formulario input[type="submit"]{
+    background-color: #154d34;
+    opacity: 100%;
+    box-shadow: 0 0 10px rgb(94, 85, 85);
+    color: white;
+    font-size: 1em;
+    padding: 0.4em 0.2em;
+  }
+  
+  .formulario .enviar {
+    text-align: center;
+    margin-right: 0px;
+    font-size: 24px;
+  }
+  .enviar input{
+   width: 120px;
+   height: 50px;
+   margin-right: 210px;
+  }
+  .info {
+    display: block;
+    color: black;
+    font-size: 24px; 
+    font-weight: bold; 
+    text-align: left;
+    margin-top: 70px;
+    padding-left: 0px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    float: left;
+    list-style: none;
+    line-height: 1.4em;  
+  }
+  .info li {
+    padding-top: 10px;
+  }
+  .info span {
+  font-style: italic ;
+  font-weight: lighter;
+  color:#154d34 ;
+  }
+  
+  .icon-direccion::before,
+  .icon-tel::before,
+  .icon-whatsapp::before,
+  .icon-email::before,
+  .icon-instagram::before,
+  .icon-facebook::before {
+   font-family: 'icomoon';
+   font-size: 30px;
+   margin: 10px;
+   color: black;
+  }
+    
+  .mapa {
+    width: 100%;
+  margin-top: 30px;
+  padding-right: 0px;
+  margin-bottom: 40px;
+  }
+ 
+}
+@media (max-width: 576px) {
+  .consultas {
+    width: 80%;
+    margin-left: 0px;
+    display: block;
+    float: none;
+    border-right: 0px solid #ccc;
+    height: auto;
+    text-align: center;
+    padding-left: 50px;
+  }
+  
+  .consultas h4{
+    font-weight: bold;
+    color:black;
+    font-size: 24px;
+  }
+  .consultas p{
+    font-style: italic;
+    font-size: 24px;
+    color: black;
+  }
+  
+  .consultas p span{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  .columna {
+    background-image: none;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 0 0.5em;
+    color: #154d34;
+    opacity: 100%;
+  }
+  
+  .formulario label {
+    padding: 30px 30px 10px 10px;
+    display:inline-block;
+    font-style: italic;
+    font-size: 24px;
+  }
+  
+  .formulario input, 
+  .formulario textarea:first-child {
+    margin-top: 10px;
+  
+  }
+  .formulario input, 
+  .formulario textarea{
+  float: right;
+  margin-right: 0px;
+  width: 85%;
+  background-color:white;
+  opacity: 60%;
+  border-radius: 10px;
+  font-size: 24px;
+  padding:  0.5em 0.6em;
+  box-shadow: 0 0 10px rgb(94, 85, 85);
+  font-style: italic;
+  }
+  
+  .formulario textarea {
+    height: 10em;
+    resize: none;
+  }
+  
+  .formulario input[type="submit"]{
+    background-color: #154d34;
+    opacity: 100%;
+    box-shadow: 0 0 10px rgb(94, 85, 85);
+    color: white;
+    font-size: 1em;
+    padding: 0.4em 0.2em;
+  }
+  
+  .formulario .enviar {
+    text-align: center;
+    margin-right: 0px;
+    font-size: 24px;
+  }
+  .enviar input{
+   width: 120px;
+   height: 50px;
+   margin-right: 210px;
+  }
+  .info {
+    display: block;
+    color: black;
+    font-size: 24px; 
+    font-weight: bold; 
+    text-align: left;
+    margin-top: 70px;
+    padding-left: 0px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    float: left;
+    list-style: none;
+    line-height: 1.4em;  
+  }
+  .info li {
+    padding-top: 10px;
+  }
+  .info span {
+  font-style: italic ;
+  font-weight: lighter;
+  color:#154d34 ;
+  }
+  
+  .icon-direccion::before,
+  .icon-tel::before,
+  .icon-whatsapp::before,
+  .icon-email::before,
+  .icon-instagram::before,
+  .icon-facebook::before {
+   font-family: 'icomoon';
+   font-size: 30px;
+   margin: 10px;
+   color: black;
+  }
+    
+  .mapa {
+    width: 100%;
+  margin-top: 30px;
+  padding-right: 0px;
+  margin-bottom: 40px;
+  }
+ 
+}

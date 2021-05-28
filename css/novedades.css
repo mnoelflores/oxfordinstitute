@@ -5,3 +5,44 @@ body{
     text-align: center;
     margin-left: 400px;
 }
+@media (max-width: 1024px) {
+    main {width: 100%;}
+    .estudia {
+    display: none;
+    background-image: none;
+    background-attachment: unset;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: auto;
+    box-sizing: border-box;
+    padding: 0px;
+    color: black;
+     opacity: 100%;
+}
+.construccion figure img {
+    width: 90%;
+    text-align: center;
+    margin-left: 30px;
+}
+} 
+
+@media (max-width: 576px) {
+    main {width: 100%;}
+    .estudia {
+    display: none;
+    background-image: none;
+    background-attachment: unset;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: auto;
+    box-sizing: border-box;
+    padding: 0px;
+    color: black;
+     opacity: 100%;
+}
+.construccion figure img {
+    width: 90%;
+    text-align: center;
+    margin-left: 30px;
+}
+} 

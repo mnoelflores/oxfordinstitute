@@ -33,3 +33,80 @@ body {
    margin-right: 200px;
    margin-bottom: 30px;
 }
+@media (max-width: 1024px) {
+    main {width: 100%;}
+            .estudia {
+                display: none;
+              background-image: none;
+              background-attachment: unset;
+              background-repeat: no-repeat;
+              background-size: auto;
+              height: auto;
+              box-sizing: border-box;
+              padding: 0px;
+              color: black;
+              opacity: 100%;
+            }
+            
+        .somos{
+            float:none;
+            width: 90%;
+            color: black;
+            font-size: 30px;
+            padding-left: 30px;
+            line-height: 34px;
+        }
+        .somos p span {
+            font-size: 30px;
+            font-weight: bold;
+        }
+        
+    .quienesSomos .esquinainstituto figure img {
+        float: none;
+        width: 90%;
+        border-radius: 20%;
+        border: 10px solid #d8251e;
+        text-align: center;
+        margin: 30px 0px 0;
+     
+    }
+    }
+@media (max-width: 576px) {
+main {width: 100%;}
+        .estudia {
+            display: none;
+          background-image: none;
+          background-attachment: unset;
+          background-repeat: no-repeat;
+          background-size: auto;
+          height: auto;
+          box-sizing: border-box;
+          padding: 0px;
+          color: black;
+          opacity: 100%;
+        }
+        
+    .somos{
+        float:none;
+        width: 90%;
+        color: black;
+        font-size: 24px;
+        padding-left: 30px;
+        line-height: 30px;
+    }
+    .somos p span {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+.quienesSomos .esquinainstituto figure img {
+    float: none;
+    width: 90%;
+    border-radius: 20%;
+    border: 10px solid #d8251e;
+    text-align: center;
+    margin: 30px 0px 0;
+ 
+}
+}
+
